@@ -1,0 +1,974 @@
+*,
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+/* Nav Start */
+
+
+
+ nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px, 92px, 20px, 92px;
+    width: 1440px;
+    height: 80px;
+}
+
+nav .navbar-brand img{
+    width: 196.72px;
+    height: 40px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 54px;
+    list-style: none;
+    margin: 28px 514.14px 28px 605.86px;
+}
+
+nav ul li a{
+    font-family: "Hind Siliguri", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+    color: #152934;
+}
+/*
+nav .language-plugin{
+    color: black;
+    margin-left: 700%;
+} */
+
+/* Nav End */
+
+
+/* Hero section Start */
+
+.hero-section{
+    width: 1440px;
+    height: 902px;
+    padding: 140px 0px 10px 0px;
+    gap: 97px;    
+}
+
+.hero-section .heroimg {
+    display: flex;
+    background-image: url(./images/Rectangle.jpg);
+    width: 1255px;
+    height: 823.5px;
+    margin: 0px 93px 35px 92px;
+
+}
+
+.heroimg .left{ 
+    width: 797px;
+    height: 622px;
+    gap: 48px;
+    padding: 0px 156.21px 96.5px 42px;
+} 
+.heroimg .left .head p{
+
+    font-family: Hind Siliguri;
+    font-size: 54px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    line-height: 88.56px;
+    color: #152934;
+}
+
+.hero-section .left .underline img{
+    position: absolute;
+    top: 160px;
+    left: 57px;
+    width: 255px;
+    height: 18px;
+    border: 4px;
+}
+
+
+.hero-section .left .hero-description p{
+    width: 597px;
+    height: 156px;
+    font-family: Hind Siliguri;
+    font-size: 26px;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    color: #5D6467;
+    line-height: 39px;
+    margin-top: 32px;
+}
+
+.hero-section .left .direct-download p{
+    width: 278px;
+    height: 39px;
+    font-family: Hind Siliguri;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 39px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #152934;
+
+}
+
+.hero-section .left button {
+    height: 64px;
+    width: 179px;
+    padding: 20px 24px 20px 24px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #FFFFFF;    
+    background: #20CB68;
+    border: none;
+    border-radius: 12px 0px 0px 12px;
+    cursor: pointer;
+}
+
+.hero-section .left .app-download-img img {
+    width: 52px;
+    height: 76px;
+    padding: 2px 4px 2px 4px;
+    border-radius: 0px 16px 16px 0px;
+    margin-left: 174px;
+    margin-top: -84px;
+} 
+
+/* .hero-section .mouse img{
+    margin-left: 65%;
+   height: 90px;
+   width: 65px;
+} */
+
+.heroimg .right{
+    padding-left: 92px;
+    width: 597.79px;
+    height: 596.66px;
+
+}
+
+.heroimg .right .image img{
+    padding-left: 59.21px;
+    padding-right: 62.79px;
+    
+}
+
+/* Hero section End */
+
+/* features Start */
+
+.features{
+    width: 1440px;
+    height: 665px;
+    padding: 10px 20px 10px 20px;
+    gap: 56px;
+}
+
+.features h1 {
+    font-family: Hind Siliguri;
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 69px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    color: #152934;
+}
+
+.features .slider{
+    margin-top: 56px;
+    width: 1398px;
+    height: 231px;
+    cursor: pointer;
+    justify-content: space-between;
+}
+
+.features .slider .first-card{
+    width: 302px;
+    height: 231px;
+    padding: 24px 8px 24px 8px;
+    border-radius: 12px;
+    gap: 18px;
+    margin-left: 92.95px;
+
+}
+
+.features .slider .first-card:hover{
+    background-color: #D9F2E3;
+    box-shadow: 27px 19px 9px 0px #00000000;
+}
+
+.features .slider .feature-icon{
+    width: 60px;
+    height: 60px;
+    padding-left: 119px;
+    padding-right: 119px;
+    padding-top: 24px;
+    padding-bottom: 18px;
+    gap: 8px;
+    display: grid;
+    place-items: center;
+}
+
+.features .slider h2{
+    font-family: Hind Siliguri;
+    padding-top: 18px;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-align: center;
+    color: #152934;
+}
+
+.features .slider p{
+    font-family: Hind Siliguri;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    color: #5D6467;
+}
+
+
+
+/* features End */
+
+/* doctor-dashboard Start */
+.doctor-dashboard{
+    width: 1440px;
+    height: 921px;
+    padding: 10px 92px 10px 92px;
+    gap: 56px;
+}
+.doctor-dashboard .left{
+    padding-left: 92px;
+}
+.doctor-dashboard .right{
+    width: 464px;
+    height: 628px;
+    gap: 58px;
+    padding-left: 127.48px;
+
+}
+.doctor-dashboard .right h2{
+    font-family: Hind Siliguri;
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 69px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #152934;
+    width: 367px;
+    height: 69px;
+
+}
+
+.doctor-dashboard .right p{
+    font-family: Hind Siliguri;
+    width: 464px;
+    /* height: 135px; */
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+    color: #505954;
+}
+
+/* .doctor-dashboard .right .service-one{
+    display: flex;
+} */
+
+.doctor-dashboard .right .service-one img {
+    width: 64px;
+    height: 64px;
+    gap: 8px;
+}
+
+.doctor-dashboard .right .service-one{
+    padding-top: 58px;
+
+}
+
+.doctor-dashboard .right .service-one .service-text h4{
+    font-family: Hind Siliguri;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 36.08px;
+    letter-spacing: 0.05em;
+    color: #152934;
+    width: 198px;
+    height: 36px;
+}
+
+.doctor-dashboard .right .service-one .text p{
+    font-family: Hind Siliguri;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #5D6467;
+    padding-top: 8px;
+}
+
+
+.doctor-dashboard .right .service-two img {
+    width: 64px;
+    height: 64px;
+    gap: 8px;
+}
+
+.doctor-dashboard .right .service-two{
+    padding-top: 8px;
+
+}
+
+.doctor-dashboard .right .service-two .service-text h4{
+    font-family: Hind Siliguri;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 36.08px;
+    letter-spacing: 0.05em;
+    color: #152934;
+    width: 198px;
+    height: 36px;
+}
+
+.doctor-dashboard .right .service-two .text p{
+    font-family: Hind Siliguri;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #5D6467;
+    padding-top: 8px;
+}
+
+.doctor-dashboard .right .service-three img {
+    width: 64px;
+    height: 64px;
+    gap: 8px;
+}
+
+.doctor-dashboard .right .service-three{
+    padding-top: 8px;
+
+}
+
+.doctor-dashboard .right .service-three .service-text h4{
+    font-family: Hind Siliguri;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 36.08px;
+    letter-spacing: 0.05em;
+    color: #152934;
+    width: 198px;
+    height: 36px;
+}
+
+.doctor-dashboard .right .service-three .text p{
+    font-family: Hind Siliguri;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #5D6467;
+    padding-top: 8px;
+}
+
+/* doctor-dashboard End */
+
+/* benifits Start */
+
+.benifits{
+    width: 1440px;
+    height: 1012.01px;
+    padding: 10px 92px 10px 92px;
+    gap: 82px;
+}
+
+.benifits h3 {
+    font-family: Hind Siliguri;
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 68.88px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    color: #152934;
+    width: 775px;
+    height: 138px;
+}
+
+
+.benifits .first-section{
+    width: 775px;
+    height: 210px;
+    gap: 18px;
+    padding-left: 332.5px;
+    padding-right: 332.5px;
+
+}
+.benifits p {
+    font-family: Hind Siliguri;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    color: #505954;
+    width: 728px;
+    height: 54px;
+    padding-top: 18px;
+}
+
+.benifits .benifit-section{
+    width: 1257px;
+    height: 480.01px;
+    gap: 61px;
+    padding: 82px 91.5px 0px 91.5px ;
+}
+
+.benifits .benifit-section .left {
+    text-align: right;
+    width: 360px;
+    height: 464px;
+    gap: 48px;
+}
+
+.benifits .benifit-section .left .first-benifit .number-one b{
+    width: 76px;
+    height: 80px;
+    padding: 16px 28px 16px 28px;
+    border-radius: 16px;
+    font-family: Hind Kochi;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    background-color: #E6F6ED;  
+    gap: 8px;
+    color: #007D35;
+
+}
+.benifits .benifit-section .left .first-benifit .number-one{
+    padding-bottom: 24px;
+
+}
+.benifits .benifit-section .left .first-benifit .number-two{
+    padding-top: 48px;
+
+}
+
+.benifits .benifit-section .left .first-benifit .first-benifit-descr{
+    padding-top: 24px;
+}
+
+.benifits .benifit-section .left .first-benifit h4{
+    font-family: Hind Siliguri;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    line-height: 36.08px;
+    text-align: right;
+    color: #152934;
+    height: 36px;
+    text-align: right;
+}
+
+.benifits .benifit-section .left .first-benifit span {
+    font-family: Hind Siliguri;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    text-align: right;
+    color: #5D6467;
+    padding-top: 8px;
+    width: 360px;
+    height: 72px;
+
+}
+.benifits .middle img{
+    padding-left: 512.5;
+    padding-right: 512.5;
+}
+
+.benifits .benifit-section .right {
+    text-align: left;
+    width: 360px;
+    height: 464px;
+    gap: 48px;
+}
+
+.benifits .benifit-section .right .third-benifit .number-three b{
+    width: 76px;
+    height: 80px;
+    padding: 16px 28px 16px 28px;
+    border-radius: 16px;
+    font-family: Hind Kochi;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    background-color: #E6F6ED;  
+    gap: 8px;
+    color: #007D35;
+
+}
+
+.benifits .benifit-section .right .third-benifit .number-three{
+    padding-bottom: 24px;
+
+}
+
+.benifits .benifit-section .right .third-benifit .third-benifit-descr{
+    padding-top: 24px;
+}
+
+.benifits .benifit-section .right .third-benifit h4{
+    font-family: Hind Siliguri;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    line-height: 36.08px;
+    color: #152934;
+    height: 36px;
+}
+
+.benifits .benifit-section .right .third-benifit span {
+    font-family: Hind Siliguri;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    text-align: right;
+    color: #5D6467;
+    padding-top: 8px;
+    width: 360px;
+    height: 72px;
+
+}
+
+.benifits .benifit-section .right .third-benifit .number-four{
+    padding-top: 48px;
+
+}
+/* benifits End*/
+
+
+/* app-section Start */
+
+.app-section{
+    width: 1440px;
+    height: 559px;
+    padding: 40px 96px 40px 96px;
+    gap: 82px;
+    background-color: #E6F6ED;
+}
+
+.app-section .left {
+    width: 728px;
+    height: 479px;
+    gap: 48px;
+    padding-top: 68px;
+
+}
+
+.app-section .left h3{
+    font-family: Hind Siliguri;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 82px;
+    letter-spacing: 0.05em;
+    color: #152934;
+    width: 485px;
+    height: 82px;
+}
+
+.app-section .left p {
+
+    font-family: Hind Siliguri;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #505954;
+    width: 728px;
+    height: 84px;
+}
+
+.app-section .left span {
+    width: 100px;
+    height: 27px;
+    font-family: Hind Siliguri;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #505954;
+}
+
+.app-section .left  .app-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 188.52px;
+    padding: 2px 10px 8px 10px;
+    border-radius: 12px;
+    background-color: #B0E4C6;
+    cursor: pointer;
+}
+
+.app-section .left .app-btn img{
+    width: 23.52px;
+    height: 26px;
+
+}
+.app-section .left .app-btn .app-info{
+    padding-left: 18px;
+}
+.app-section .left .app-btn .app-info b{
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #707070;
+    width: 70px;
+    height: 18px;
+
+}
+
+.app-section .left .app-btn .app-info span{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    line-height: 24px;
+    color: #152934;
+    width: 105px;
+    height: 24px;
+    
+}
+
+.app-section .right {
+    width: 447.38px;
+    height: 655.9px;
+    padding: 0px 164.62px 136.9px 150px;
+
+}
+
+/* app-section End */
+
+/* footer-section start */
+
+.footer{
+    width: 1440px;
+    height: 385px;
+    padding: 120px 0px 60px 0px;
+    gap: 54px;
+    padding-left: 94px;
+
+}
+
+.footer .first-footer{
+    
+    width: 221px;
+    height: 115px;
+    gap: 32px;
+
+}
+
+.footer .first-footer .footer-logo-image a img {
+    width: 172.13px;
+    height: 35px;
+
+}
+
+.footer .first-footer .social-links{
+    display: flex;
+    gap: 25px;
+    padding-top: 32px;
+}
+
+.footer .second-footer{
+    width: 123px;
+    height: 30px;
+    padding-left: 97px;
+    padding-right: 68px;
+    gap: 18px
+
+}
+.second-footer-sections-descr{
+    padding-top: 18px;
+}
+.footer .second-footer h4{
+    font-family: Hind Siliguri;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #152934;
+    width: 123px;
+height: 30px;
+
+}
+
+.footer .second-footer p{
+    font-family: Hind Siliguri;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    color: #505954;
+    width: 161px;
+    height: 21px;
+
+}
+.footer .second-footer p a{
+    font-family: Hind Siliguri;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    color: #505954;
+    text-decoration: none;
+    width: 138px;
+    height: 21px;
+
+}
+
+.footer .third-footer{
+    width: 118px;
+    height: 127px;
+    padding-left: 75px;
+    padding-right: 68px;
+    gap: 18px
+}
+
+.third-footer-sections-descr{
+    padding-top: 18px;
+    width: 76px;
+    height: 9px;
+    gap: 8px;
+
+}
+
+.footer .third-footer h4{
+    font-family: Hind Siliguri;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #152934;
+    width: 125px;
+    height: 30px;
+}
+
+
+.footer .third-footer p{
+    font-family: Hind Siliguri;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    color: #505954;
+    width: 161px;
+    height: 21px;
+}
+
+.footer .third-footer p a{
+    font-family: Hind Siliguri;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    color: #505954;
+    text-decoration: none;
+    width: 138px;
+    height: 21px;
+
+}
+
+.footer .fourth-footer{
+    width: 120px;
+    height: 127px;
+    padding-left: 61px;
+    padding-right: 68px;
+    gap: 18px
+}
+
+.fourth-footer-sections-descr{
+    padding-top: 18px;
+    width: 128px;
+    height: 79px;
+    gap: 8px;
+
+}
+
+.footer .fourth-footer h4{
+    font-family: Hind Siliguri;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #152934;
+    width: 78px;
+    height: 30px;
+}
+
+.footer .fourth-footer p{
+    font-family: Hind Siliguri;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    color: #505954;
+    width: 128px;
+    height: 21px;
+}
+
+.footer .fourth-footer p a{
+    font-family: Hind Siliguri;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    color: #505954;
+    text-decoration: none;
+    width: 128px;
+    height: 21px;
+
+}
+
+.footer .fifth-footer{
+    width: 80px;
+    height: 127px;
+    padding-left: 60px;
+    padding-right: 68px;
+    gap: 18px
+}
+
+.fifth-footer-sections-descr{
+    padding-top: 18px;
+    width: 85px;
+    height: 79px;
+    gap: 8px;
+
+}
+
+.footer .fifth-footer h4{
+    font-family: Hind Siliguri;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #152934;
+    width: 23x;
+    height: 30px;
+}
+
+.footer .fifth-footer p{
+    font-family: Hind Siliguri;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    color: #505954;
+    width: 85px;
+    height: 21px;
+}
+
+.footer .fifth-footer p a{
+    font-family: Hind Siliguri;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    color: #505954;
+    text-decoration: none;
+    width: 85px;
+    height: 21px;
+
+}
+
+.footer .sixth-footer{
+    width: 206px;
+    height: 128px;
+    padding-left: 60px;
+    padding-right: 68px;
+    gap: 18px;
+}
+
+.sixth-footer-sections-descr{
+    padding-top: 18px;
+    width: 85px;
+    height: 79px;
+    gap: 8px;
+
+}
+
+.footer .sixth-footer h4{
+    font-family: Hind Siliguri;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #152934;
+    width: 73px;
+    height: 30px;   
+
+}
+.footer .sixth-footer p{
+    font-family: Hind Siliguri;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    color: #505954;
+    width: 129px;
+    height: 21px;
+}
+
+.footer .sixth-footer input{
+    height: 48px;
+    width: 180px;
+    padding: 8px;
+    border-radius: 8px 0px 0px 8px;
+    border: 1px solid #5D6467;
+    gap: 8px;
+    color:#505954;
+    font-family: Hind Siliguri;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    
+}
+
+.footer .sixth-footer button{
+    margin: 0;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    right: -65px;
+    top: 93px;
+    
+}
