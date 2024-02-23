@@ -1050,3 +1050,18 @@ height: 30px;
     top: 93px;
     
 }
+
+.copyright-section {
+    padding-top: 55px;
+
+}
+
+.copyright-section p{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0.05em;
+    color: #A3AFB4;
+    text-align: center;
+}
