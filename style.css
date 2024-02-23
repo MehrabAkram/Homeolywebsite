@@ -1,0 +1,169 @@
+*,
+
+
+
+body{
+    margin: 0;
+    
+}
+
+
+
+
+/* Nav Start */
+
+
+
+/* nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px, 92px, 20px, 92px;
+    width: 1440px;
+    margin-top: 20px;
+}
+
+nav .logo {
+    width: 196.72px;
+    height: 40px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    list-style: none;
+    margin: 0;
+    margin-left: 100%;
+}
+
+nav ul li a{
+    font-family: "Hind Siliguri", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    text-align: center;
+    text-decoration: none;
+    color: #152934;
+}
+
+nav .language-plugin{
+    color: black;
+    margin-left: 700%;
+} */
+
+/* Nav End */
+
+
+/* Hero section Start */
+
+.hero-section{
+ 
+    
+   
+    
+   
+}
+
+.hero-section .heroimg{
+    display: flex;
+    background-image: url(./images/Rectangle.jpg);
+    height: 823px;
+    width: 1255px;
+    margin-top: 35px;
+    margin-left: 92px;
+
+}
+.heroimg .left{ 
+    width: 797px;
+
+} 
+.heroimg .left .head {
+    padding-top: 110px;
+    padding-left: 42px;
+}
+.heroimg .left .head p{
+    font-family: Hind Siliguri;
+    font-size: 54px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    line-height: 88.56px;
+    
+    color: #152934;
+}
+/* 
+.hero-section .left .underline img{
+    position: absolute;
+    top: 160px;
+    left: 19px;
+    width: 255px;
+    height: 18px;
+    border: 4px;
+    
+
+}
+
+.hero-section .left p{
+    width: 580px;
+    font-family: Hind Siliguri;
+    font-size: 26px;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #5D6467;
+    line-height: 39px;
+}
+
+.hero-section .left h3{
+    font-family: Hind Siliguri;
+    font-size: 26px;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #152934;
+
+}
+
+.hero-section .left button {
+    height: 64px;
+    width: 179px;
+    padding: 20px 24px 20px 24px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #FFFFFF;    
+    background: #20CB68;
+    border: none;
+    border-radius: 12px 0px 0px 12px;
+    cursor: pointer;
+}
+
+.hero-section .left img {
+    width: 52px;
+    height: 76px;
+    padding: 2px 4px 2px 4px;
+    border-radius: 0px 16px 16px 0px;
+    position: absolute;
+    left: 190px;
+    bottom: -8px;
+} */
+
+/* .hero-section .mouse img{
+    margin-left: 65%;
+   height: 90px;
+   width: 65px;
+} */
+
+.heroimg .right{
+    padding-left: 92px;
+}
+.heroimg .right .image img{
+    width: 595px;
+    height: 595px;
+
+}
+
+/* Hero section End */
